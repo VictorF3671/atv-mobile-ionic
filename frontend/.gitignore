@@ -1,0 +1,46 @@
+# ============================
+# Node / npm / Vue
+# ============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+www/
+coverage/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Ionic / Capacitor
+android/
+ios/
+.idea/
+*.iml
+
+# VS Code config
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Package locks (opcional, se você não commitar)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
